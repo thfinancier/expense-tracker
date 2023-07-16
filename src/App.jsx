@@ -7,7 +7,7 @@ import Edit from './pages/Edit'
 function App() {
   return (
     <BrowserRouter>
-      <div className="app">
+      <div className='app'>
         <nav>
           <Link to='/'>Budgets</Link>
           <Link to='/add_budget'>Add budget</Link>

@@ -1,4 +1,44 @@
 :root {
+    $primary: hsla(207, 100%, 64%, 1);
+    $secondary: hsla(207, 28%, 64%, 1);
+    font-family: 'Poppins', sans-serif;
+}
 
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        margin: 0 40px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+}
+
+.body {
+    margin: 40px;
+}
+
+.budgets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+
+    .budget-card {
+        border: 1px solid blue;
+        padding: 20px 10px;
+
+        i {
+            cursor: pointer;
+        }
+    }
 }
 
